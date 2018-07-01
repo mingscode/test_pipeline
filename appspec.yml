@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /time.py
-    destination: ~/test_pipeline/
+    destination: /root/test_pipeline/
 hooks:
   BeforeInstall:
     - location: deploy/before_install
