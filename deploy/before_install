@@ -1,2 +1,2 @@
 #!/bin/bash
-pkill -9 -f /root/test_pipeline/time.py
+sudo pkill -9 -f time.py
