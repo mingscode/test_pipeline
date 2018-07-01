@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo pkill -9 -f time.py
+sudo pkill -f time.py
