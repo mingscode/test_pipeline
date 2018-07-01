@@ -1,3 +1,4 @@
 #!/bin/bash
 cd /root/test_pipeline &&
-python time.py &
+nohup python time.py &
+
