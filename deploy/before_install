@@ -1,2 +1,3 @@
 #!/bin/bash
+chmod ugo+w /root/test_pipeline &&
 rm /root/test_pipeline/time.py
