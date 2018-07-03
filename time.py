@@ -17,7 +17,7 @@ def mainpage():
               <input type="submit" value="submit">
               </form>
 	      <p>{1}</p>
-              <p>This is version 1.8</p>
+              <p>This is version 1.9</p>
               '''.format(name, hello)
     footer = '</body></html>'
     return header + body + footer
