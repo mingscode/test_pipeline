@@ -5,7 +5,7 @@ files:
     destination: /root/test_pipeline/
 hooks:
   BeforeInstall:
-    - localtion: deploy/before_install
+    - location: deploy/before_install
       timeout: 300
       runas: root
   ApplicationStop:
