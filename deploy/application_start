@@ -1,4 +1,4 @@
 #!/bin/bash
 cd /root/test_pipeline &&
-nohup python time.py &
+python time.py > /dev/null 2> /dev/null < /dev/null &
 
