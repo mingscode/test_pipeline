@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /time.py
+  - source: /
     destination: /root/test_pipeline/
 hooks:
   ApplicationStop:
