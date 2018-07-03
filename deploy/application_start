@@ -1,4 +1,3 @@
 #!/bin/bash
-cd /root/test_pipeline &&
-python time.py > /dev/null 2> /dev/null < /dev/null &
+python /root/test_pipeline/time.py > /dev/null 2>&1 &
 
