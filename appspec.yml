@@ -4,16 +4,16 @@ files:
   - source: /
     destination: /root/test_pipeline/
 hooks:
-  ApplicationStop:
-    - location: deploy/application_stop.sh
+  BeforeInstall:
+    - localtion: deploy/before_install
       timeout: 300
       runas: root
-  BeforeInstall:
-    - localtion: deploy/before_install.sh
+  ApplicationStop:
+    - location: deploy/application_stop
       timeout: 300
       runas: root
   ApplicationStart:
-    - location: deploy/application_start.sh
+    - location: deploy/application_start
       timeout: 300
       runas: root
 
