@@ -1,3 +1,4 @@
 #!/bin/bash
 chmod ugo+w /root/test_pipeline &&
+rm -r /root/test_pipeline/deploy
 rm /root/test_pipeline/time.py
